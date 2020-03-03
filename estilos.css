@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 300%;
+}
+html{
+    background-color: burlywood;
+}
+
+p.ley1{
+  padding: 10px;
+  font-size: 150%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 5%;
+  border: rgb(179, 98, 1) 2px solid;
+  background-color: rgb(255, 163, 51);
+  text-align: center;
+}
+
+p.ley2{
+    padding: 10px;
+    font-size: 150%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    z-index: 1;
+    border: darkgreen 2px solid;
+    background-color:rgb(123, 228, 123);
+    text-align: center;
+}
+
+p.ley3{
+    padding: 10px;
+    font-size: 150%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    border: rgb(117, 117, 0) 2px solid;
+    background-color: lightgoldenrodyellow;
+    text-align: left;    
+}
+
+p.ley4{
+    padding: 10px;
+    font-size: 150%;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 30%;
+    height: 30%;
+    border:rgb(91, 138, 167) 2px solid;
+    background-color: rgb(174, 224, 255);
+    text-align: right;        
+}
+
+p.ley5{
+    padding: 10px;
+    font-size: 150%;
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    border: rgb(172, 116, 172) 2px solid;
+    background-color: rgb(250, 177, 250);
+    text-align: left;        
+}
+
+p.ley6{
+    padding: 10px;
+    font-size: 150%;
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+    width: 30%;
+    height: 30%;
+    border: hsl(0, 15%, 45%) 2px solid;
+    background-color: rgb(255, 154, 95);
+    text-align: right;        
+}
+p:hover {
+    z-index: 2;
+  }
